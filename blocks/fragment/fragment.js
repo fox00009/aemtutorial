@@ -12,10 +12,6 @@ import {
   loadSections,
 } from '../../scripts/aem.js';
 
-import {
-  loadSections,
-} from '../../hero/hero.js';
-
 /**
  * Loads a fragment.
  * @param {string} path The path to the fragment
