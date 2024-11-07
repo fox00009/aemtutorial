@@ -1,4 +1,5 @@
 import { createOptimizedPicture } from '../../scripts/aem.js';
+import { createOptimizedPicture } from '../../header/header.js';
 
 export default function decorate(block) {
   /* change to ul, li */
