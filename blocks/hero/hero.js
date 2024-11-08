@@ -8,7 +8,7 @@ export default function decorate(block) {
     while (row.firstElementChild) li.append(row.firstElementChild);
     [...li.children].forEach((div) => {
       if (div.children.length === 1 && div.querySelector('picture')) div.className = 'hero picture';
-      else div.className = 'hero image';
+      else div.className = 'hero img';
     });
     ul.append(li);
   });
