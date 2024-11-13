@@ -614,6 +614,7 @@ async function loadHeader(header) {
 async function loadFooter(footer) {
   const footerBlock = buildBlock('footer', '');
   footer.append(footerBlock);
+  footer.append('<!-- OneTrust Cookies Settings button start --><button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button> <!-- OneTrust Cookies Settings button end -->');
   decorateBlock(footerBlock);
   return loadBlock(footerBlock);
 }
