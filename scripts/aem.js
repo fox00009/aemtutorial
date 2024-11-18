@@ -103,7 +103,7 @@ function setup() {
   window.hlx.codeBasePath = '';
   window.hlx.lighthouse = new URLSearchParams(window.location.search).get('lighthouse') === 'on';
 
-  const scriptEl = document.querySelector('script[src$="/scripts/scripts.js"]');
+  const  = document.querySelector('script[src$="/scripts/scripts.js"]');
   if (scriptEl) {
     try {
       [window.hlx.codeBasePath] = new URL(scriptEl.src).pathname.split('/scripts/scripts.js');
@@ -614,17 +614,6 @@ async function loadHeader(header) {
 async function loadFooter(footer) {
   const footerBlock = buildBlock('footer', '');
   footer.append(footerBlock);
-        footer.innerHTML = `<!-- OneTrust Cookies Consent Notice start for sisal.com.tr -->
-
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="1d046dca-da93-44ae-a05a-03f12c369b27" ></script>
-<script type="text/javascript">
-function OptanonWrapper() { }
-</script>
-<!-- OneTrust Cookies Consent Notice end for sisal.com.tr --><!-- OneTrust Cookies Settings button start -->
-<button id="ot-sdk-btn" class="ot-sdk-show-settings">Cookie Settings</button>
-<!-- OneTrust Cookies Settings button end --><!-- OneTrust Cookies List start -->
-<div id="ot-sdk-cookie-policy"></div>
-<!-- OneTrust Cookies List end -->`;
   decorateBlock(footerBlock);
   return loadBlock(footerBlock);
 }
