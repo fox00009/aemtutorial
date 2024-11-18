@@ -16,7 +16,7 @@
   margin: 16px;
 }
 
-.cardsjobs .cardsjobs-card-body > div{
+.cardsjobs-card-body > div{
   background-color: rgb(222 234 150/var(--tw-bg-opacity));
 }
 
