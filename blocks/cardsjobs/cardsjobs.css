@@ -48,3 +48,6 @@
   object-fit: cover;
 }
 
+.cardsjobs-card-body .button-container{
+    box-sizing: border-box;
+}
