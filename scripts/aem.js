@@ -469,7 +469,7 @@ function decorateSections(main) {
  * @returns {object} Window placeholders object
  */
 // eslint-disable-next-line import/prefer-default-export
-async function fetchPlaceholders(prefix = 'default') {
+async function fetchPlaceholders(prefix = 'default') {return;
   window.placeholders = window.placeholders || {};
   if (!window.placeholders[prefix]) {
     window.placeholders[prefix] = new Promise((resolve) => {
