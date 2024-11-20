@@ -48,6 +48,12 @@
   object-fit: cover;
 }
 
-.cardsjobs-card-body .button-container > a{
-    background-color: green;
+.cardsjobs-card-body .button-container{
+    text-align-last: right;
 }
+
+.cardsjobs-card-body .button-container > a{
+    background-color: rgb(11 125 62);
+}
+
+
