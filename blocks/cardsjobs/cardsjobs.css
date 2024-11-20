@@ -17,12 +17,13 @@
 }
 
 .cardsjobs-card-body > p > a{
+	border-radius: 1.5rem;
+	background-color: rgb(222 234 150);
+	margin-right: 1.25rem;
     box-sizing: border-box;
     display: inline-block;
     max-width: 100%;
-    margin: 12px 0;
     border: 2px solid transparent;
-    border-radius: 2.4em;
     padding: 0.5em 1.2em;
     font-family: var(--body-font-family);
     font-style: normal;
@@ -30,8 +31,7 @@
     line-height: 1.25;
     text-align: center;
     text-decoration: none;
-    background-color: rgb(222 234 150);
-    color: var(--background-color);
+    color: rgb(0 101 59);
     cursor: pointer;
     overflow: hidden;
     text-overflow: ellipsis;
