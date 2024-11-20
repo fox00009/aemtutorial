@@ -317,7 +317,6 @@ function decorateTemplateAndTheme() {
  */
 function wrapTextNodes(block) {
   const validWrappers = [
-  'DIV',
     'P',
     'PRE',
     'UL',
@@ -333,7 +332,7 @@ function wrapTextNodes(block) {
   ];
 
   const wrap = (el) => {
-    const wrapper = document.createElement('div');
+    const wrapper = document.createElement('p');
     wrapper.append(...el.childNodes);
     el.append(wrapper);
   };
