@@ -48,6 +48,6 @@
   object-fit: cover;
 }
 
-.cardsjobs-card-body .button-container{
-    box-sizing: border-box;
+.cardsjobs-card-body .button-container > a{
+    background-color: green;
 }
